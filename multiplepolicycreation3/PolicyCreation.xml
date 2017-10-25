@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite">
+	<listeners>
+		<listener class-name="supporting.classes.SeleniumListeners" />
+	</listeners>
+	<!--<test name="PolicyCreationTest" preserve-order="true"> <parameter name 
+		= "browserType" value="chrome"/> <classes> <class name="PolicyTestNG"> <methods> 
+		<include name="multipleInfo" /> </methods> </class> </classes> </test> -->
+
+	<test name="PolicyCreationTest" preserve-order="true">
+		<parameter name="browserType" value="internetExplorer" />
+		<classes>
+			<class name="com.policy.multiplepolicycreation.PolicyTestNGTest">
+				<methods>
+					<include name="multipleInfo" />
+					<!--<include name="policy" />-->
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!--<test name="PolicyCreationTest2" preserve-order="true"> <parameter name="browserType" 
+		value="firefox" /> <classes> <class name="PolicyTestNG"> <methods> <include 
+		name="policy" /> </methods> </class> </classes> </test> -->
+</suite>

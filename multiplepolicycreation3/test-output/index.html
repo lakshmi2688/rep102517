@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestSuite">
+              <span class="suite-name border-failed">TestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestSuite">
+                    <span>C:\Users\N0290327\workspace1\multiplepolicycreation\PolicyCreation.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 3 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TestSuite" class="hide-methods failed suite-TestSuite"> (hide)</a> <!-- hide-methods failed suite-TestSuite -->
+                      <a href="#" panel-name="suite-TestSuite" class="show-methods failed suite-TestSuite"> (show)</a> <!-- show-methods failed suite-TestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-TestSuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.policy.multiplepolicycreation.PolicyTestNGTest" hash-for-method="multipleInfo(Illinois, 897404, as*, 5/30/17, TestoneDD, TestLastDD, 1902 E COLLEGE AVE, Customer won&#039;t provide, 6...)">multipleInfo(Illinois, 897404, as*, 5/30/17, TestoneDD, TestLastDD, 1902 E COLLEGE AVE, Customer won't provide, 6...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.policy.multiplepolicycreation.PolicyTestNGTest" hash-for-method="multipleInfo(Illinois, 897404, as*, 5/30/17, TesttwoEE, TestLastEE, 1901 E COLLEGE AVE, Customer won&#039;t provide, 6...)">multipleInfo(Illinois, 897404, as*, 5/30/17, TesttwoEE, TestLastEE, 1901 E COLLEGE AVE, Customer won't provide, 6...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.policy.multiplepolicycreation.PolicyTestNGTest" hash-for-method="multipleInfo(Illinois, 897404, as*, 5/30/17, TestoneEE, TestLastEE, 1900 E COLLEGE AVE, Customer won&#039;t provide, 6...)">multipleInfo(Illinois, 897404, as*, 5/30/17, TestoneEE, TestLastEE, 1900 E COLLEGE AVE, Customer won't provide, 6...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestSuite" class="panel TestSuite">
+          <div class="suite-TestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.policy.multiplepolicycreation.PolicyTestNGTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="multipleInfo(Illinois, 897404, as*, 5/30/17, TestoneDD, TestLastDD, 1902 E COLLEGE AVE, Customer won&#039;t provide, 6...)">
+                  </a> <!-- multipleInfo(Illinois, 897404, as*, 5/30/17, TestoneDD, TestLastDD, 1902 E COLLEGE AVE, Customer won't provide, 6...) -->
+                  <span class="method-name">multipleInfo</span>
+                  <span class="parameters">(Illinois, 897404, as*, 5/30/17, TestoneDD, TestLastDD, 1902 E COLLEGE AVE, Customer won't provide, 61761-4577, NORMAL, Illinois, 11/2/67, Yes, Move to New State - Existing Safeco auto policy, No, No, TestoneDD, TestLastDD, 11/2/67, Male, Single, Customer won't provide, Washington, 25, No, Accountant/Auditor, Masters Degree, No, Yes, 1N4BL2EP7BC119382, Business Use, 1500, 4, Currently Insured, Safeco, 1/1/18, No Liability, 24, waive, 4/1/16, Rented Apartment, 6, Enhanced, , , 50/100, 50, 50/100, TBHNSVH345679, Waive - Prior or Current Safeco Customer, Waive - Prior or Current Safeco Customer, TestoneDD, TestLastDD, 071904779, 1112223344445550, 897, 123, 8734, test3@test.com, test3@test.com)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with id == cadd (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.0&apos;, revision: &apos;350cf60&apos;, time: &apos;2016-10-13 10:48:57 -0700&apos;
+System info: host: &apos;VDDR03P-25C14BA&apos;, ip: &apos;10.172.169.53&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:24403/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 4cb500d7-7662-49d7-b2f3-20189892f894
+*** Element info: {Using=id, value=cadd}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at supporting.classes.GenericMethods.getElement(GenericMethods.java:21)
+	at com.policy.multiplepolicycreation.PolicyTestNGTest.multipleInfo(PolicyTestNGTest.java:229)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multipleInfo(Illinois, 897404, as*, 5/30/17, TesttwoEE, TestLastEE, 1901 E COLLEGE AVE, Customer won&#039;t provide, 6...)">
+                  </a> <!-- multipleInfo(Illinois, 897404, as*, 5/30/17, TesttwoEE, TestLastEE, 1901 E COLLEGE AVE, Customer won't provide, 6...) -->
+                  <span class="method-name">multipleInfo</span>
+                  <span class="parameters">(Illinois, 897404, as*, 5/30/17, TesttwoEE, TestLastEE, 1901 E COLLEGE AVE, Customer won't provide, 61761-4577, NORMAL, Illinois, 1/4/68, Yes, Move to New State - Existing Safeco auto policy, No, No, TesttwoEE, TestLastEE, 1/4/68, Female, Married, Customer won't provide, Washington, 27, No, Accountant/Auditor, Masters Degree, No, Yes, 2MEFM74W1YX686536, Business Use, 500, 2, Currently Insured, Safeco, 1/1/18, No Liability, 24, waive, 4/1/16, Rented Apartment, 6, Enhanced, , , 50/100, 50, 50/100, TBHNSVH345680, Waive - Prior or Current Safeco Customer, Waive - Prior or Current Safeco Customer, TesttwoEE, TestLastEE, 071904779, 1112223344445550, 345, 342, 1112, test2@test.com, test2@test.com)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with id == cadd (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.21 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.0&apos;, revision: &apos;350cf60&apos;, time: &apos;2016-10-13 10:48:57 -0700&apos;
+System info: host: &apos;VDDR03P-25C14BA&apos;, ip: &apos;10.172.169.53&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:24403/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 4cb500d7-7662-49d7-b2f3-20189892f894
+*** Element info: {Using=id, value=cadd}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at supporting.classes.GenericMethods.getElement(GenericMethods.java:21)
+	at com.policy.multiplepolicycreation.PolicyTestNGTest.multipleInfo(PolicyTestNGTest.java:229)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multipleInfo(Illinois, 897404, as*, 5/30/17, TestoneEE, TestLastEE, 1900 E COLLEGE AVE, Customer won&#039;t provide, 6...)">
+                  </a> <!-- multipleInfo(Illinois, 897404, as*, 5/30/17, TestoneEE, TestLastEE, 1900 E COLLEGE AVE, Customer won't provide, 6...) -->
+                  <span class="method-name">multipleInfo</span>
+                  <span class="parameters">(Illinois, 897404, as*, 5/30/17, TestoneEE, TestLastEE, 1900 E COLLEGE AVE, Customer won't provide, 61761-4577, NORMAL, Illinois, 6/2/70, Yes, Move to New State - Existing Safeco auto policy, No, No, TestoneEE, TestLastEE, 6/2/70, Male, Single, Customer won't provide, Washington, 25, No, Accountant/Auditor, Masters Degree, No, Yes, 1N4BL2EP7BC119382, Business Use, 1500, 4, Currently Insured, Safeco, 1/1/18, No Liability, 24, waive, 4/1/16, Rented Apartment, 6, Enhanced, , , 50/100, 50, 50/100, TBHNSVH345678, Waive - Prior or Current Safeco Customer, Waive - Prior or Current Safeco Customer, TestoneEE, TestLastEE, 071904779, 1112223344445550, 234, 324, 3244, test@test.com, test@test.com)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id=&apos;PolicyDriverPersonFirstName&apos;] (tried for 3 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.0.0&apos;, revision: &apos;350cf60&apos;, time: &apos;2016-10-13 10:48:57 -0700&apos;
+System info: host: &apos;VDDR03P-25C14BA&apos;, ip: &apos;10.172.169.53&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:24403/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 4cb500d7-7662-49d7-b2f3-20189892f894
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:265)
+	at supporting.classes.WaitTypes.locateElement(WaitTypes.java:24)
+	at com.policy.multiplepolicycreation.PolicyTestNGTest.multipleInfo(PolicyTestNGTest.java:307)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //input[@id=&apos;PolicyDriverPersonFirstName&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.28 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.0&apos;, revision: &apos;350cf60&apos;, time: &apos;2016-10-13 10:48:57 -0700&apos;
+System info: host: &apos;VDDR03P-25C14BA&apos;, ip: &apos;10.172.169.53&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:24403/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 4cb500d7-7662-49d7-b2f3-20189892f894
+*** Element info: {Using=xpath, value=//input[@id=&apos;PolicyDriverPersonFirstName&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 26 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-failed -->
+        </div> <!-- panel TestSuite -->
+        <div panel-name="test-xml-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\N0290327\workspace1\multiplepolicycreation\PolicyCreation.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;TestSuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;supporting.classes.SeleniumListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;PolicyCreationTest&quot;&gt;
+    &lt;parameter name=&quot;browserType&quot; value=&quot;internetExplorer&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.policy.multiplepolicycreation.PolicyTestNGTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;multipleInfo&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.policy.multiplepolicycreation.PolicyTestNGTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PolicyCreationTest --&gt;
+&lt;/suite&gt; &lt;!-- TestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">PolicyCreationTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestSuite');
+function tableData_TestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'multipleInfo')
+data.setCell(0, 2, 'com.policy.multiplepolicycreation.PolicyTestNGTest')
+data.setCell(0, 3, 33783);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'multipleInfo')
+data.setCell(1, 2, 'com.policy.multiplepolicycreation.PolicyTestNGTest')
+data.setCell(1, 3, 6236);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'multipleInfo')
+data.setCell(2, 2, 'com.policy.multiplepolicycreation.PolicyTestNGTest')
+data.setCell(2, 3, 6156);
+window.suiteTableData['TestSuite']= { tableData: data, tableDiv: 'times-div-TestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <div id="times-div-TestSuite">
+              </div> <!-- times-div-TestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">multipleInfo(Illinois, 897404, as*, 5/30/17, TestoneDD, TestLastDD, 1902 E COLLEGE AVE, Customer won't provide, 6...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">after invocation - completed executing the method : PolicyTestNGTest.multipleInfo</span>
+                <span class="reporter-method-output">test class: com.policy.multiplepolicycreation.PolicyTestNGTest</span>
+                <span class="reporter-method-output">testStatus: Failed</span>
+                <span class="reporter-method-output">before invocation - about to execute the method : PolicyTestNGTest.getScreenshots</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">multipleInfo(Illinois, 897404, as*, 5/30/17, TesttwoEE, TestLastEE, 1901 E COLLEGE AVE, Customer won't provide, 6...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">after invocation - completed executing the method : PolicyTestNGTest.multipleInfo</span>
+                <span class="reporter-method-output">test class: com.policy.multiplepolicycreation.PolicyTestNGTest</span>
+                <span class="reporter-method-output">testStatus: Failed</span>
+                <span class="reporter-method-output">before invocation - about to execute the method : PolicyTestNGTest.getScreenshots</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">multipleInfo(Illinois, 897404, as*, 5/30/17, TestoneEE, TestLastEE, 1900 E COLLEGE AVE, Customer won't provide, 6...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">after invocation - completed executing the method : PolicyTestNGTest.multipleInfo</span>
+                <span class="reporter-method-output">test class: com.policy.multiplepolicycreation.PolicyTestNGTest</span>
+                <span class="reporter-method-output">testStatus: Failed</span>
+                <span class="reporter-method-output">before invocation - about to execute the method : PolicyTestNGTest.getScreenshots</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.policy.multiplepolicycreation.PolicyTestNGTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(internetExplorer)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">multipleInfo(Illinois, 897404, as*, 5/30/17, TestoneEE, TestLastEE, 1900 E COLLEGE AVE, Customer won't provide, 6...)</span>
+                <span class="method-start">8394 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getScreenshots([TestResult name=multipleInfo status=FAILURE method=PolicyTestNGTest.multipleInfo(java.lang.String, ...)</span>
+                <span class="method-start">42189 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">multipleInfo(Illinois, 897404, as*, 5/30/17, TestoneDD, TestLastDD, 1902 E COLLEGE AVE, Customer won't provide, 6...)</span>
+                <span class="method-start">42192 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getScreenshots([TestResult name=multipleInfo status=FAILURE method=PolicyTestNGTest.multipleInfo(java.lang.String, ...)</span>
+                <span class="method-start">48357 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">multipleInfo(Illinois, 897404, as*, 5/30/17, TesttwoEE, TestLastEE, 1901 E COLLEGE AVE, Customer won't provide, 6...)</span>
+                <span class="method-start">48358 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getScreenshots([TestResult name=multipleInfo status=FAILURE method=PolicyTestNGTest.multipleInfo(java.lang.String, ...)</span>
+                <span class="method-start">54599 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">54600 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

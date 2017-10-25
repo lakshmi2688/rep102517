@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <parameter name="browserType" value="internetExplorer"/>
+  <listeners>
+    <listener class-name="supporting.classes.SeleniumListeners"/>
+  </listeners>
+  <test name="PolicyCreationTest(failed)">
+    <parameter name="browserType" value="internetExplorer"/>
+    <classes>
+      <class name="com.policy.multiplepolicycreation.PolicyTestNGTest">
+        <methods>
+          <include name="multipleInfo" invocation-numbers="0 1 2"/>
+          <include name="setUp"/>
+          <include name="getScreenshots"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.policy.multiplepolicycreation.PolicyTestNGTest -->
+    </classes>
+  </test> <!-- PolicyCreationTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

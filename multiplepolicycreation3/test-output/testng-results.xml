@@ -1,0 +1,1308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="3" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Onsuite start: TestSuite]]>
+    </line>
+    <line>
+      <![CDATA[OnStart of all the tests: PolicyCreationTest]]>
+    </line>
+    <line>
+      <![CDATA[before invocation - about to execute the method : PolicyTestNGTest.setUp]]>
+    </line>
+    <line>
+      <![CDATA[after invocation - completed executing the method : PolicyTestNGTest.setUp]]>
+    </line>
+    <line>
+      <![CDATA[On test start before each test: multipleInfo]]>
+    </line>
+    <line>
+      <![CDATA[before invocation - about to execute the method : PolicyTestNGTest.multipleInfo]]>
+    </line>
+    <line>
+      <![CDATA[after invocation - completed executing the method : PolicyTestNGTest.multipleInfo]]>
+    </line>
+    <line>
+      <![CDATA[test class: com.policy.multiplepolicycreation.PolicyTestNGTest]]>
+    </line>
+    <line>
+      <![CDATA[testStatus: Failed]]>
+    </line>
+    <line>
+      <![CDATA[before invocation - about to execute the method : PolicyTestNGTest.getScreenshots]]>
+    </line>
+    <line>
+      <![CDATA[after invocation - completed executing the method : PolicyTestNGTest.getScreenshots]]>
+    </line>
+    <line>
+      <![CDATA[On test start before each test: multipleInfo]]>
+    </line>
+    <line>
+      <![CDATA[before invocation - about to execute the method : PolicyTestNGTest.multipleInfo]]>
+    </line>
+    <line>
+      <![CDATA[after invocation - completed executing the method : PolicyTestNGTest.multipleInfo]]>
+    </line>
+    <line>
+      <![CDATA[test class: com.policy.multiplepolicycreation.PolicyTestNGTest]]>
+    </line>
+    <line>
+      <![CDATA[testStatus: Failed]]>
+    </line>
+    <line>
+      <![CDATA[before invocation - about to execute the method : PolicyTestNGTest.getScreenshots]]>
+    </line>
+    <line>
+      <![CDATA[after invocation - completed executing the method : PolicyTestNGTest.getScreenshots]]>
+    </line>
+    <line>
+      <![CDATA[On test start before each test: multipleInfo]]>
+    </line>
+    <line>
+      <![CDATA[before invocation - about to execute the method : PolicyTestNGTest.multipleInfo]]>
+    </line>
+    <line>
+      <![CDATA[after invocation - completed executing the method : PolicyTestNGTest.multipleInfo]]>
+    </line>
+    <line>
+      <![CDATA[test class: com.policy.multiplepolicycreation.PolicyTestNGTest]]>
+    </line>
+    <line>
+      <![CDATA[testStatus: Failed]]>
+    </line>
+    <line>
+      <![CDATA[before invocation - about to execute the method : PolicyTestNGTest.getScreenshots]]>
+    </line>
+    <line>
+      <![CDATA[after invocation - completed executing the method : PolicyTestNGTest.getScreenshots]]>
+    </line>
+    <line>
+      <![CDATA[before invocation - about to execute the method : PolicyTestNGTest.afterClass]]>
+    </line>
+    <line>
+      <![CDATA[after invocation - completed executing the method : PolicyTestNGTest.afterClass]]>
+    </line>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="55044" started-at="2017-06-19T02:59:27Z" finished-at="2017-06-19T03:00:22Z">
+    <groups>
+    </groups>
+    <test name="PolicyCreationTest" duration-ms="55044" started-at="2017-06-19T02:59:27Z" finished-at="2017-06-19T03:00:22Z">
+      <class name="com.policy.multiplepolicycreation.PolicyTestNGTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.policy.multiplepolicycreation.PolicyTestNGTest@93dd95]" name="setUp" is-config="true" duration-ms="7095" started-at="2017-06-18T19:59:27Z" finished-at="2017-06-18T19:59:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[internetExplorer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[after invocation - completed executing the method : PolicyTestNGTest.setUp]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="multipleInfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.policy.multiplepolicycreation.PolicyTestNGTest@93dd95]" name="multipleInfo" duration-ms="33783" started-at="2017-06-18T19:59:36Z" data-provider="MultiplePolicies" finished-at="2017-06-18T20:00:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Illinois]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[897404]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[as*]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5/30/17]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TestoneEE]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[TestLastEE]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1900 E COLLEGE AVE]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Customer won't provide]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[61761-4577]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NORMAL]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Illinois]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[6/2/70]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Move to New State - Existing Safeco auto policy]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[TestoneEE]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[TestLastEE]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[6/2/70]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Single]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Customer won't provide]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[Washington]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[Accountant/Auditor]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[Masters Degree]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[1N4BL2EP7BC119382]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[Business Use]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[1500]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[Currently Insured]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[Safeco]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[1/1/18]]>
+              </value>
+            </param>
+            <param index="36">
+              <value>
+                <![CDATA[No Liability]]>
+              </value>
+            </param>
+            <param index="37">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+            <param index="38">
+              <value>
+                <![CDATA[waive]]>
+              </value>
+            </param>
+            <param index="39">
+              <value>
+                <![CDATA[4/1/16]]>
+              </value>
+            </param>
+            <param index="40">
+              <value>
+                <![CDATA[Rented Apartment]]>
+              </value>
+            </param>
+            <param index="41">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="42">
+              <value>
+                <![CDATA[Enhanced]]>
+              </value>
+            </param>
+            <param index="43">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="44">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="45">
+              <value>
+                <![CDATA[50/100]]>
+              </value>
+            </param>
+            <param index="46">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="47">
+              <value>
+                <![CDATA[50/100]]>
+              </value>
+            </param>
+            <param index="48">
+              <value>
+                <![CDATA[TBHNSVH345678]]>
+              </value>
+            </param>
+            <param index="49">
+              <value>
+                <![CDATA[Waive - Prior or Current Safeco Customer]]>
+              </value>
+            </param>
+            <param index="50">
+              <value>
+                <![CDATA[Waive - Prior or Current Safeco Customer]]>
+              </value>
+            </param>
+            <param index="51">
+              <value>
+                <![CDATA[TestoneEE]]>
+              </value>
+            </param>
+            <param index="52">
+              <value>
+                <![CDATA[TestLastEE]]>
+              </value>
+            </param>
+            <param index="53">
+              <value>
+                <![CDATA[071904779]]>
+              </value>
+            </param>
+            <param index="54">
+              <value>
+                <![CDATA[1112223344445550]]>
+              </value>
+            </param>
+            <param index="55">
+              <value>
+                <![CDATA[234]]>
+              </value>
+            </param>
+            <param index="56">
+              <value>
+                <![CDATA[324]]>
+              </value>
+            </param>
+            <param index="57">
+              <value>
+                <![CDATA[3244]]>
+              </value>
+            </param>
+            <param index="58">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="59">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='PolicyDriverPersonFirstName'] (tried for 3 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'VDDR03P-25C14BA', ip: '10.172.169.53', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:24403/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 4cb500d7-7662-49d7-b2f3-20189892f894]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='PolicyDriverPersonFirstName'] (tried for 3 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'VDDR03P-25C14BA', ip: '10.172.169.53', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:24403/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 4cb500d7-7662-49d7-b2f3-20189892f894
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:265)
+	at supporting.classes.WaitTypes.locateElement(WaitTypes.java:24)
+	at com.policy.multiplepolicycreation.PolicyTestNGTest.multipleInfo(PolicyTestNGTest.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //input[@id='PolicyDriverPersonFirstName'] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.28 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'VDDR03P-25C14BA', ip: '10.172.169.53', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:24403/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 4cb500d7-7662-49d7-b2f3-20189892f894
+*** Element info: {Using=xpath, value=//input[@id='PolicyDriverPersonFirstName']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[after invocation - completed executing the method : PolicyTestNGTest.multipleInfo]]>
+            </line>
+            <line>
+              <![CDATA[test class: com.policy.multiplepolicycreation.PolicyTestNGTest]]>
+            </line>
+            <line>
+              <![CDATA[testStatus: Failed]]>
+            </line>
+            <line>
+              <![CDATA[before invocation - about to execute the method : PolicyTestNGTest.getScreenshots]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- multipleInfo -->
+        <test-method status="PASS" signature="getScreenshots(org.testng.ITestResult)[pri:0, instance:com.policy.multiplepolicycreation.PolicyTestNGTest@93dd95]" name="getScreenshots" is-config="true" duration-ms="3" started-at="2017-06-18T20:00:10Z" finished-at="2017-06-18T20:00:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=multipleInfo status=FAILURE method=PolicyTestNGTest.multipleInfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.policy.multiplepolicycreation.PolicyTestNGTest@93dd95] output=after invocation - completed executing the method : PolicyTestNGTest.multipleInfo]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[after invocation - completed executing the method : PolicyTestNGTest.getScreenshots]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getScreenshots -->
+        <test-method status="FAIL" signature="multipleInfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.policy.multiplepolicycreation.PolicyTestNGTest@93dd95]" name="multipleInfo" duration-ms="6156" started-at="2017-06-18T20:00:10Z" data-provider="MultiplePolicies" finished-at="2017-06-18T20:00:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Illinois]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[897404]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[as*]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5/30/17]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TestoneDD]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[TestLastDD]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1902 E COLLEGE AVE]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Customer won't provide]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[61761-4577]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NORMAL]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Illinois]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[11/2/67]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Move to New State - Existing Safeco auto policy]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[TestoneDD]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[TestLastDD]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[11/2/67]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Single]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Customer won't provide]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[Washington]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[Accountant/Auditor]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[Masters Degree]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[1N4BL2EP7BC119382]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[Business Use]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[1500]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[Currently Insured]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[Safeco]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[1/1/18]]>
+              </value>
+            </param>
+            <param index="36">
+              <value>
+                <![CDATA[No Liability]]>
+              </value>
+            </param>
+            <param index="37">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+            <param index="38">
+              <value>
+                <![CDATA[waive]]>
+              </value>
+            </param>
+            <param index="39">
+              <value>
+                <![CDATA[4/1/16]]>
+              </value>
+            </param>
+            <param index="40">
+              <value>
+                <![CDATA[Rented Apartment]]>
+              </value>
+            </param>
+            <param index="41">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="42">
+              <value>
+                <![CDATA[Enhanced]]>
+              </value>
+            </param>
+            <param index="43">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="44">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="45">
+              <value>
+                <![CDATA[50/100]]>
+              </value>
+            </param>
+            <param index="46">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="47">
+              <value>
+                <![CDATA[50/100]]>
+              </value>
+            </param>
+            <param index="48">
+              <value>
+                <![CDATA[TBHNSVH345679]]>
+              </value>
+            </param>
+            <param index="49">
+              <value>
+                <![CDATA[Waive - Prior or Current Safeco Customer]]>
+              </value>
+            </param>
+            <param index="50">
+              <value>
+                <![CDATA[Waive - Prior or Current Safeco Customer]]>
+              </value>
+            </param>
+            <param index="51">
+              <value>
+                <![CDATA[TestoneDD]]>
+              </value>
+            </param>
+            <param index="52">
+              <value>
+                <![CDATA[TestLastDD]]>
+              </value>
+            </param>
+            <param index="53">
+              <value>
+                <![CDATA[071904779]]>
+              </value>
+            </param>
+            <param index="54">
+              <value>
+                <![CDATA[1112223344445550]]>
+              </value>
+            </param>
+            <param index="55">
+              <value>
+                <![CDATA[897]]>
+              </value>
+            </param>
+            <param index="56">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="57">
+              <value>
+                <![CDATA[8734]]>
+              </value>
+            </param>
+            <param index="58">
+              <value>
+                <![CDATA[test3@test.com]]>
+              </value>
+            </param>
+            <param index="59">
+              <value>
+                <![CDATA[test3@test.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with id == cadd (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'VDDR03P-25C14BA', ip: '10.172.169.53', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:24403/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 4cb500d7-7662-49d7-b2f3-20189892f894
+*** Element info: {Using=id, value=cadd}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with id == cadd (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'VDDR03P-25C14BA', ip: '10.172.169.53', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:24403/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 4cb500d7-7662-49d7-b2f3-20189892f894
+*** Element info: {Using=id, value=cadd}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at supporting.classes.GenericMethods.getElement(GenericMethods.java:21)
+	at com.policy.multiplepolicycreation.PolicyTestNGTest.multipleInfo(PolicyTestNGTest.java:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[after invocation - completed executing the method : PolicyTestNGTest.multipleInfo]]>
+            </line>
+            <line>
+              <![CDATA[test class: com.policy.multiplepolicycreation.PolicyTestNGTest]]>
+            </line>
+            <line>
+              <![CDATA[testStatus: Failed]]>
+            </line>
+            <line>
+              <![CDATA[before invocation - about to execute the method : PolicyTestNGTest.getScreenshots]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- multipleInfo -->
+        <test-method status="PASS" signature="getScreenshots(org.testng.ITestResult)[pri:0, instance:com.policy.multiplepolicycreation.PolicyTestNGTest@93dd95]" name="getScreenshots" is-config="true" duration-ms="1" started-at="2017-06-18T20:00:16Z" finished-at="2017-06-18T20:00:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=multipleInfo status=FAILURE method=PolicyTestNGTest.multipleInfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.policy.multiplepolicycreation.PolicyTestNGTest@93dd95] output=after invocation - completed executing the method : PolicyTestNGTest.multipleInfo]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[after invocation - completed executing the method : PolicyTestNGTest.getScreenshots]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getScreenshots -->
+        <test-method status="FAIL" signature="multipleInfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.policy.multiplepolicycreation.PolicyTestNGTest@93dd95]" name="multipleInfo" duration-ms="6236" started-at="2017-06-18T20:00:16Z" data-provider="MultiplePolicies" finished-at="2017-06-18T20:00:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Illinois]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[897404]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[as*]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5/30/17]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TesttwoEE]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[TestLastEE]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1901 E COLLEGE AVE]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Customer won't provide]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[61761-4577]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NORMAL]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Illinois]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1/4/68]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Move to New State - Existing Safeco auto policy]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[TesttwoEE]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[TestLastEE]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[1/4/68]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Married]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Customer won't provide]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[Washington]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[Accountant/Auditor]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[Masters Degree]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[2MEFM74W1YX686536]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[Business Use]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[Currently Insured]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[Safeco]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[1/1/18]]>
+              </value>
+            </param>
+            <param index="36">
+              <value>
+                <![CDATA[No Liability]]>
+              </value>
+            </param>
+            <param index="37">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+            <param index="38">
+              <value>
+                <![CDATA[waive]]>
+              </value>
+            </param>
+            <param index="39">
+              <value>
+                <![CDATA[4/1/16]]>
+              </value>
+            </param>
+            <param index="40">
+              <value>
+                <![CDATA[Rented Apartment]]>
+              </value>
+            </param>
+            <param index="41">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="42">
+              <value>
+                <![CDATA[Enhanced]]>
+              </value>
+            </param>
+            <param index="43">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="44">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="45">
+              <value>
+                <![CDATA[50/100]]>
+              </value>
+            </param>
+            <param index="46">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="47">
+              <value>
+                <![CDATA[50/100]]>
+              </value>
+            </param>
+            <param index="48">
+              <value>
+                <![CDATA[TBHNSVH345680]]>
+              </value>
+            </param>
+            <param index="49">
+              <value>
+                <![CDATA[Waive - Prior or Current Safeco Customer]]>
+              </value>
+            </param>
+            <param index="50">
+              <value>
+                <![CDATA[Waive - Prior or Current Safeco Customer]]>
+              </value>
+            </param>
+            <param index="51">
+              <value>
+                <![CDATA[TesttwoEE]]>
+              </value>
+            </param>
+            <param index="52">
+              <value>
+                <![CDATA[TestLastEE]]>
+              </value>
+            </param>
+            <param index="53">
+              <value>
+                <![CDATA[071904779]]>
+              </value>
+            </param>
+            <param index="54">
+              <value>
+                <![CDATA[1112223344445550]]>
+              </value>
+            </param>
+            <param index="55">
+              <value>
+                <![CDATA[345]]>
+              </value>
+            </param>
+            <param index="56">
+              <value>
+                <![CDATA[342]]>
+              </value>
+            </param>
+            <param index="57">
+              <value>
+                <![CDATA[1112]]>
+              </value>
+            </param>
+            <param index="58">
+              <value>
+                <![CDATA[test2@test.com]]>
+              </value>
+            </param>
+            <param index="59">
+              <value>
+                <![CDATA[test2@test.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with id == cadd (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.21 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'VDDR03P-25C14BA', ip: '10.172.169.53', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:24403/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 4cb500d7-7662-49d7-b2f3-20189892f894
+*** Element info: {Using=id, value=cadd}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with id == cadd (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.21 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'VDDR03P-25C14BA', ip: '10.172.169.53', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:24403/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 4cb500d7-7662-49d7-b2f3-20189892f894
+*** Element info: {Using=id, value=cadd}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at supporting.classes.GenericMethods.getElement(GenericMethods.java:21)
+	at com.policy.multiplepolicycreation.PolicyTestNGTest.multipleInfo(PolicyTestNGTest.java:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[after invocation - completed executing the method : PolicyTestNGTest.multipleInfo]]>
+            </line>
+            <line>
+              <![CDATA[test class: com.policy.multiplepolicycreation.PolicyTestNGTest]]>
+            </line>
+            <line>
+              <![CDATA[testStatus: Failed]]>
+            </line>
+            <line>
+              <![CDATA[before invocation - about to execute the method : PolicyTestNGTest.getScreenshots]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- multipleInfo -->
+        <test-method status="PASS" signature="getScreenshots(org.testng.ITestResult)[pri:0, instance:com.policy.multiplepolicycreation.PolicyTestNGTest@93dd95]" name="getScreenshots" is-config="true" duration-ms="0" started-at="2017-06-18T20:00:22Z" finished-at="2017-06-18T20:00:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=multipleInfo status=FAILURE method=PolicyTestNGTest.multipleInfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.policy.multiplepolicycreation.PolicyTestNGTest@93dd95] output=after invocation - completed executing the method : PolicyTestNGTest.multipleInfo]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[after invocation - completed executing the method : PolicyTestNGTest.getScreenshots]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getScreenshots -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.policy.multiplepolicycreation.PolicyTestNGTest@93dd95]" name="afterClass" is-config="true" duration-ms="423" started-at="2017-06-18T20:00:22Z" finished-at="2017-06-18T20:00:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[after invocation - completed executing the method : PolicyTestNGTest.afterClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.policy.multiplepolicycreation.PolicyTestNGTest -->
+    </test> <!-- PolicyCreationTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>
